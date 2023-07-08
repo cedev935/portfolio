@@ -18,7 +18,7 @@ const Navigation = () => {
   }, []);
   return (
     <NavWrap>
-      <div>
+      <div className="logo-wrap">
         <img src={logo} alt="logo" />
       </div>
 
@@ -35,9 +35,26 @@ const Navigation = () => {
 
 const NavWrap = styled.nav`
   display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  .logo-wrap {
+    width: 50px;
+    display: grid;
+    place-items: center;
+    img {
+      width: 100%;
+    }
+  }
   .hamburger-react {
     position: relative;
     z-index: 5;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0.5rem 3rem;
   }
 `;
 

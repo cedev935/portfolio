@@ -13,6 +13,7 @@ const Wrap = styled.ul`
   display: flex;
   width: 60%;
   justify-content: space-around;
+  list-style-type:  none;
 `;
 
 export default Desktop;

@@ -26,16 +26,20 @@ MobileMenu.propTypes = {
 const Mobile = styled.div`
 	position: absolute;
 	top: 0;
+  right: 0;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+  height: 100vh;
 	border: 1px solid black;
   overflow: hidden;
   transition: width 0.5s;
   transition: background-color 1s;
+  padding: 0;
+
 	.warper {
-		height: 100vh;
+    margin-top: 5rem;
 		display: inherit;
 		flex-direction: inherit;
 		justify-content: space-around;
