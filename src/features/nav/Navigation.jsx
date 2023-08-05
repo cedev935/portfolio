@@ -53,7 +53,7 @@ const NavWrap = styled.nav`
   .hamburger-react {
     position: relative;
     color: #c3b0ec;
-    z-index: 5;
+    z-index: 10;
   }
 
   @media screen and (min-width: 768px) {

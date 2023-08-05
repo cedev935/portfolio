@@ -8,10 +8,12 @@
 
 body {
   background-color: #000;
-  background-image: url();
+  color: #fff;
 }
 
 .hero {
+  position: relative;
+  z-index: -1;
   min-height: 100vh;
   background-image: url('./media/herobg.png');
   background-size: cover;
