@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
 import Navigation from './features/nav/Navigation';
 import Hero from './features/hero/Hero';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <Navigation />
@@ -11,6 +18,6 @@ function App() {
     </>
 
   );
-}
+};
 
 export default App;

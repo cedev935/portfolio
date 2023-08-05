@@ -4,8 +4,8 @@ import { violetGradient } from '../animations/StyleVars';
 import Social from './Social';
 
 const Hero = () => (
-  <HeroWrapper className="hero" data-aos="fade-down">
-    <div className="text-hero d-flex gap-4">
+  <HeroWrapper className="hero">
+    <div className="text-hero d-flex gap-4" data-aos="fade-up" data-aos-duration="1500">
       <Social />
       <div className="flex flex-direction-column justify-content-center align-items-center">
         <div className="circle" />
@@ -30,7 +30,7 @@ const Hero = () => (
 
 const HeroWrapper = styled.section`
   .text-hero {
-    width: 50%;
+    width: 80%;
     padding-top: 10rem;
     margin-left: 20%;
     span,
