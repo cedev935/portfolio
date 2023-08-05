@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { styled } from 'styled-components';
 import logo from '../../media/adarsh-logo.png';
+import glowingAnimation from '../Animations/GlowingText';
 
 const MobileMenu = ({ open, onClick }) => (
-  <Mobile style={{ width: open ? '100%' : 0, backgroundColor: open ? 'rgba(255,255,255, 0.8)' : 'rgba(255,255,255, 0)' }}>
+  <Mobile style={{ width: open ? '100%' : 0, backgroundColor: open ? 'rgba(0,0,0, 0.5)' : 'rgba(0,0,0, 0)' }}>
     <div className="warper">
       <div>
         <img src={logo} alt="" />
@@ -26,20 +27,20 @@ MobileMenu.propTypes = {
 const Mobile = styled.div`
 	position: absolute;
 	top: 0;
-  right: 0;
+    right: 0;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-  height: 100vh;
+    height: 100vh;
 	border: 1px solid black;
-  overflow: hidden;
-  transition: width 0.5s;
-  transition: background-color 1s;
-  padding: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+    transition: background-color 1s;
+    padding: 0;
 
 	.warper {
-    margin-top: 5rem;
+        margin-top: 5rem;
 		display: inherit;
 		flex-direction: inherit;
 		justify-content: space-around;
@@ -63,7 +64,17 @@ const Mobile = styled.div`
 		flex-direction: inherit;
 		justify-content: space-around;
 		align-items: center;
-    transition: height 1s
+        transition: height 1s;
+		a {
+			color: #ac89f6 !important;
+			text-decoration: none;
+			position: relative;
+			animation: ${glowingAnimation} 2s infinite;
+		}
+
+		li {
+			padding: 0 .5rem;
+		}
 	}
 `;
 

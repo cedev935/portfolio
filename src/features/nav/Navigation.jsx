@@ -4,11 +4,11 @@ import { Turn as Hamburger } from 'hamburger-react';
 import logo from '../../media/adarsh-logo.png';
 import MobileMenu from './MobileMenu';
 import Desktop from './Desktop';
+import glowingAnimation from '../Animations/GlowingText';
 
 const Navigation = () => {
   const [isOpen, setOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
-  console.log(isOpen);
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth);
@@ -46,10 +46,13 @@ const NavWrap = styled.nav`
     place-items: center;
     img {
       width: 100%;
+      border-radius: 50%;
+      animation: ${glowingAnimation} 2s infinite;
     }
   }
   .hamburger-react {
     position: relative;
+    color: #c3b0ec;
     z-index: 5;
   }
 
