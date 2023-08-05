@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from 'styled-components';
-import glowingAnimation from '../Animations/GlowingText';
+import glowingAnimation from '../animations/GlowingText';
 
 const Desktop = () => (
   <Wrap>
