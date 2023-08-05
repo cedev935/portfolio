@@ -71,6 +71,10 @@ const Mobile = styled.div`
 			position: relative;
 			animation: ${glowingAnimation} 2s infinite;
 		}
+
+		li {
+			padding: 0 .5rem;
+		}
 	}
 `;
 

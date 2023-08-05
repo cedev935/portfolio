@@ -52,6 +52,7 @@ const NavWrap = styled.nav`
   }
   .hamburger-react {
     position: relative;
+    color: #c3b0ec;
     z-index: 5;
   }
 
