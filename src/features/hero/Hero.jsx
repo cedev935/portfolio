@@ -1,10 +1,12 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import { violetGradient } from '../animations/StyleVars';
+import Social from './Social';
 
 const Hero = () => (
-  <HeroWrapper className="hero">
+  <HeroWrapper className="hero" data-aos="fade-down">
     <div className="text-hero d-flex gap-4">
+      <Social />
       <div className="flex flex-direction-column justify-content-center align-items-center">
         <div className="circle" />
         <div className="line" />
@@ -29,11 +31,8 @@ const Hero = () => (
 const HeroWrapper = styled.section`
   .text-hero {
     width: 50%;
-    position: absolute;
-    z-index: -1;
-    left: 20%;
-    top: 0;
-    margin-top: 8rem;
+    padding-top: 10rem;
+    margin-left: 20%;
     span,
     b {
       color: #9153ff;
@@ -66,7 +65,22 @@ const HeroWrapper = styled.section`
 
   @media screen and (max-width: 769px) {
     .text-hero {
-      left: 5%;
+      margin-left: 10%;
+      width: 80%;
+      h1 {
+        font-size: 4.5rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .text-hero {
+      width: 80%;
+      margin-left: 5%;
       h1 {
         font-size: 4rem;
       }
