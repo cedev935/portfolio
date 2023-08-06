@@ -4,7 +4,7 @@ import { Turn as Hamburger } from 'hamburger-react';
 import logo from '../../media/adarsh-logo.png';
 import MobileMenu from './MobileMenu';
 import Desktop from './Desktop';
-import glowingAnimation from '../Animations/GlowingText';
+import glowingAnimation from '../animations/GlowingText';
 
 const Navigation = () => {
   const [isOpen, setOpen] = useState(false);
@@ -37,9 +37,10 @@ const NavWrap = styled.nav`
   display: flex;
   width: 100%;
   position: fixed;
+  z-index: 9;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 2rem 1rem;
   .logo-wrap {
     width: 50px;
     display: grid;
@@ -53,7 +54,7 @@ const NavWrap = styled.nav`
   .hamburger-react {
     position: relative;
     color: #c3b0ec;
-    z-index: 5;
+    z-index: 10;
   }
 
   @media screen and (min-width: 768px) {

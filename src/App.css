@@ -8,6 +8,37 @@
 
 body {
   background-color: #000;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('./media/herobg.png');
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+
+  25% {
+    background-position: 75% 45%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  75% {
+    background-position: 45% 75%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
 
 a {
