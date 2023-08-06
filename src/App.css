@@ -23,15 +23,19 @@ body {
   0% {
     background-position: 0 0;
   }
+
   25% {
     background-position: 75% 45%;
   }
+
   50% {
     background-position: 100% 100%;
   }
+
   75% {
     background-position: 45% 75%;
   }
+
   100% {
     background-position: 0 0;
   }
