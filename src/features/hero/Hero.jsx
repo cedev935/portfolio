@@ -11,7 +11,12 @@ const Hero = () => (
         <div className="circle" />
         <div className="line" />
       </div>
-      <div className="text">
+      <div
+        className="text"
+        data-aos="slide-left"
+        data-aos-duration="2000"
+        data-aos-mirror="true"
+      >
         <h1 className="text-light mt-4">
           Hi I&apos;m
           {' '}

@@ -29,10 +29,10 @@ const Wrap = styled.ul`
       padding: .1rem .3rem;
     }
 
+    transition: all 1s;
     &:hover {
       background-color: #c3b0ec;
       color: black;
-      transition: all .5s;
     }
   }
 `;
