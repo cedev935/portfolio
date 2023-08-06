@@ -4,6 +4,9 @@ import 'aos/dist/aos.css';
 import './App.css';
 import Navigation from './features/nav/Navigation';
 import Hero from './features/hero/Hero';
+import SkillSlider from './features/skills/Slider';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const App = () => {
   useEffect(() => {
@@ -15,6 +18,7 @@ const App = () => {
     <>
       <Navigation />
       <Hero />
+      <SkillSlider />
     </>
 
   );
