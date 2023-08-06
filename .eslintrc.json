@@ -33,6 +33,7 @@
 		"react/react-in-jsx-scope": "off",
 		"import/no-unresolved": "off",
         "react/jsx-props-no-spreading": "off",
+        "import/extensions": "off",
 		"no-shadow": "off",
 		"no-tabs": 0
 	},
