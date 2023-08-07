@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from 'styled-components';
-import glowingAnimation from '../animations/GlowingText';
+import { glowingAnimation } from '../animations/GlowingText';
 
 const Desktop = () => (
   <Wrap>
@@ -15,8 +15,10 @@ const Wrap = styled.ul`
   display: flex;
   width: 60%;
   justify-content: space-around;
+  align-items: center;
   list-style-type:  none;
   font-size: 1.2rem;
+  margin: 0;
   a {
     color: #c3b0ec;
     border-radius: .3rem;

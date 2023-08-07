@@ -15,3 +15,12 @@ export const greenPinkGradient = `
     background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
     background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 `;
+
+export const blackGradient = {
+  background:
+    `linear-gradient(
+      to right,
+      #434343,
+      #000
+    )`,
+};

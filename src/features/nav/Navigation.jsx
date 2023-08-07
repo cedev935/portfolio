@@ -4,11 +4,30 @@ import { Turn as Hamburger } from 'hamburger-react';
 import logo from '../../media/adarsh-logo.png';
 import MobileMenu from './MobileMenu';
 import Desktop from './Desktop';
-import glowingAnimation from '../animations/GlowingText';
+import { glowingAnimation } from '../animations/GlowingText';
+import { blackGradient } from '../animations/StyleVars';
 
 const Navigation = () => {
   const [isOpen, setOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
+
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY >= window.innerHeight) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth);
@@ -17,7 +36,7 @@ const Navigation = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
   return (
-    <NavWrap>
+    <NavWrap style={scrolled ? blackGradient : { background: 'transparent' }}>
       <div className="logo-wrap">
         <img src={logo} alt="logo" />
       </div>
@@ -36,13 +55,14 @@ const Navigation = () => {
 const NavWrap = styled.nav`
   display: flex;
   width: 100%;
+  height: 8vh;
   position: fixed;
   z-index: 9;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 0rem 1rem;
   .logo-wrap {
-    width: 50px;
+    width: 40px;
     display: grid;
     place-items: center;
     img {
