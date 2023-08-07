@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { styled } from 'styled-components';
-import glowingAnimation from '../animations/GlowingText';
+import { glowingAnimation } from '../animations/GlowingText';
 
 const Social = () => (
   <SocialWrap className="d-flex flex-column gap-4 mt-5">
