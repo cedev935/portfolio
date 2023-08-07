@@ -62,7 +62,7 @@ const NavWrap = styled.nav`
   align-items: center;
   padding: 0rem 1rem;
   .logo-wrap {
-    width: 50px;
+    width: 40px;
     display: grid;
     place-items: center;
     img {

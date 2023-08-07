@@ -1,11 +1,21 @@
+import bootstrap from '../../media/tech-logo/bootstrap.png';
+import css from '../../media/tech-logo/css.png';
+import figma from '../../media/tech-logo/figma.png';
+import github from '../../media/tech-logo/github.png';
+import html from '../../media/tech-logo/html.png';
 import js from '../../media/tech-logo/js.png';
-import sass from '../../media/tech-logo/sass.png';
+import mentor from '../../media/tech-logo/mentor.png';
+import psql from '../../media/tech-logo/psql.png';
+import python from '../../media/tech-logo/python.png';
+import r from '../../media/tech-logo/r.png';
 import rails from '../../media/tech-logo/rails.png';
 import react from '../../media/tech-logo/react.png';
 import ruby from '../../media/tech-logo/ruby.png';
 import redux from '../../media/tech-logo/redux.png';
+import sass from '../../media/tech-logo/sass.png';
+import vscode from '../../media/tech-logo/vscode.png';
 
-const data = [
+export const data = [
   {
     id: 1,
     image: js,
@@ -80,4 +90,85 @@ const data = [
   },
 ];
 
-export default data;
+export const techLogos = [
+  {
+    id: 1,
+    image: html,
+    title: 'HTML',
+  },
+  {
+    id: 2,
+    image: css,
+    title: 'CSS',
+  },
+  {
+    id: 3,
+    image: sass,
+    title: 'SASS',
+  },
+  {
+    id: 4,
+    image: js,
+    title: 'JavaScript',
+  },
+  {
+    id: 5,
+    image: react,
+    title: 'React',
+  },
+  {
+    id: 6,
+    image: redux,
+    title: 'Redux',
+  },
+  {
+    id: 7,
+    image: bootstrap,
+    title: 'Bootstrap',
+  },
+  {
+    id: 8,
+    image: ruby,
+    title: 'Ruby',
+  },
+  {
+    id: 9,
+    image: rails,
+    title: 'Rails',
+  },
+  {
+    id: 10,
+    image: psql,
+    title: 'PostgreSQL',
+  },
+  {
+    id: 11,
+    image: python,
+    title: 'Python',
+  },
+  {
+    id: 12,
+    image: r,
+    title: 'R-Software',
+  },
+  {
+    id: 13,
+    image: github,
+    title: 'GitHub',
+  },
+  {
+    id: 14,
+    image: figma,
+    title: 'Figma',
+  },
+  {
+    id: 15,
+    image: mentor,
+    title: 'Mentor',
+  },
+  {
+    id: 16,
+    image: vscode,
+    title: 'Vs-Code',
+  },
+];

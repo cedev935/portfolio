@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import { styled } from 'styled-components';
-import data from './data';
+import { data } from './data';
 import SkillCard from './SkillCard';
 import Title from '../../Title';
 
