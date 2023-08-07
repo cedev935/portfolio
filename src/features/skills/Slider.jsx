@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick';
 import { styled } from 'styled-components';
 import { data, techLogos } from './data';
 import SkillCard from './SkillCard';
 import Title from '../../Title';
 import { violetGradient } from '../animations/StyleVars';
+import { glowingText } from '../animations/GlowingText';
 
 const SkillSlider = () => {
+  const [isOpen, setOpen] = useState(false);
   const settings = {
     dots: false,
     infinite: true,
@@ -42,6 +44,10 @@ const SkillSlider = () => {
       },
     ],
   };
+
+  const handleOpen = () => {
+    setOpen(() => !isOpen);
+  };
   return (
     <SliderWrapper className="mx-auto">
       <Title title="Tech and Tool" />
@@ -52,11 +58,6 @@ const SkillSlider = () => {
       </Slider>
       <div className="accordion bg-transparent accordion-flush" id="accordionFlushExample">
         <div className="accordion-item bg-transparent">
-          <h2 className="accordion-header text-center mt-3 fs-1 bg-transparent" id="flush-headingOne">
-            <button className="badge text-light fs-3 bg-transparent text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              See More
-            </button>
-          </h2>
           <div id="flush-collapseOne" className="accordion-collapse bg-transparent collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
             <div className="accordion-body bg-transparent">
               <div className="mx-auto" style={{ maxWidth: '1200px' }}>
@@ -74,6 +75,11 @@ const SkillSlider = () => {
               </div>
             </div>
           </div>
+          <h2 className="accordion-header text-center mt-3 fs-1 bg-transparent" id="flush-headingOne">
+            <button className="badge text-light fs-3 bg-transparent text-center collapsed" onClick={handleOpen} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              {isOpen ? 'Collapse 💀' : 'See More 🚀'}
+            </button>
+          </h2>
         </div>
       </div>
     </SliderWrapper>
@@ -93,6 +99,11 @@ const SliderWrapper = styled.section`
 
   .accordion {
     background-color: transparent;
+  }
+
+  button {
+    border-color: transparent !important;
+    animation: ${glowingText} 2s infinite;
   }
 
   .logo-wrapper {
