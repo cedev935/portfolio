@@ -1,5 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
+// import { Scene } from 'three';
+// import { OrbitControls } from '@react-three/drei';
 import { violetGradient } from '../animations/StyleVars';
 import Social from './Social';
 
@@ -30,6 +32,13 @@ const Hero = () => (
         <p>Each Coding Fight makes me stronger than before</p>
       </div>
     </div>
+    {/* <canvas>
+      <Suspense fallback={null}>
+        <ambientLight />
+        <OrbitControls />
+        <Scene />
+      </Suspense>
+    </canvas> */}
   </HeroWrapper>
 );
 
