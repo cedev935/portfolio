@@ -150,34 +150,7 @@ const projectCard = [
     imagePop: 'projects-img/wikipedia-search/all-devices-black.png',
 
   },
-  {
-    title: 'Awesome Book',
-    projectMaker: [
-      'Adarsh',
-      'Full-Stack Dev',
-      '2023',
-    ],
-    lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
-    description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
-      `,
-    techList: [
-      'CSS',
-      'JavaScript',
-      'localStorage',
-      'HTML',
-    ],
-    link: [
-      'https://powerlevel9000.github.io/Awesome-Books/dist/',
-      'https://github.com/PowerLevel9000/Awesome-Books/',
-    ],
-    image: 'projects-img/awesome-books/desktop.png',
-    imagePop: 'projects-img/awesome-books/all-devices-black.png',
 
-  },
   {
     title: 'Weather App',
     projectMaker: [
