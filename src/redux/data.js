@@ -179,3 +179,5 @@ const projectCard = [
     imagePop: 'projects-img/weather-app/all-devices-black.png',
   },
 ];
+
+export default projectCard;
