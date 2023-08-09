@@ -1,13 +1,39 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { styled } from 'styled-components';
+import Card from './Card';
+import { greenPinkGradient } from '../animations/StyleVars';
+import Title from '../../Title';
 
 const ProjectCard = () => {
   const { projects } = useSelector((store) => store);
   return (
-    <div className="text-light">
-      {projects[0].title}
-    </div>
+    <ProjectCardWrapper className="text-light background-wrapper">
+      <Title title="Projects Highlight" />
+      {projects.map((project) => <Card key={project.id} {...project} />)}
+    </ProjectCardWrapper>
   );
 };
+
+const ProjectCardWrapper = styled.section`
+  .card {
+    width: 80%;
+    margin: auto;
+    img {
+      width: 100%;
+      height: 58vh;
+    }
+    ${greenPinkGradient}
+    min-height: 60vh;
+  }
+
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  h3 {
+    margin: 3rem 0 2rem 0;
+  }
+`;
 
 export default ProjectCard;

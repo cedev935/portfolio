@@ -4,7 +4,7 @@ import laptop from './laptop.png';
 import mobile from './mobile.png';
 
 const awesomeBook = {
-  title: 'Awesome Book',
+  title: 'Awesome Books',
   lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
       localstorage`,
   description: `
