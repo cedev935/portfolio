@@ -4,6 +4,7 @@ import { styled } from 'styled-components';
 import { data, techLogos } from './data';
 import SkillCard from './SkillCard';
 import Title from '../../Title';
+import '../../media/marble.png';
 import { violetGradient } from '../animations/StyleVars';
 import { glowingText } from '../animations/GlowingText';
 
@@ -49,7 +50,7 @@ const SkillSlider = () => {
     setOpen(() => !isOpen);
   };
   return (
-    <SliderWrapper className="mx-auto">
+    <SliderWrapper className="mx-auto slider-wrapper">
       <Title title="Tech and Tool" />
       <Slider {...settings} className="slider">
         {data.map((card) => (
