@@ -27,7 +27,7 @@ const App = () => {
       <SkillSlider />
       <Liner />
       <Project />
-      <Liner />
+      <Liner id="about" />
       <AboutMe />
     </>
   );
