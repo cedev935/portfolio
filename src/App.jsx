@@ -11,6 +11,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Project from './features/projects/ProjectCard';
 import { glowingAnimation } from './features/animations/GlowingText';
 import { greenPinkGradient } from './features/animations/StyleVars';
+import AboutMe from './features/about-me/AboutMe';
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Liner />
       <Project />
       <Liner />
+      <AboutMe />
     </>
   );
 };

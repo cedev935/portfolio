@@ -52,3 +52,9 @@ main {
 .slick-arrow {
   display: none !important;
 }
+
+.about-me {
+  background-image: url('./media/color-ball.png');
+  background-size: cover;
+  animation: moveBackground 20s infinite .5s;
+}
