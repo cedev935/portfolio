@@ -1,9 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
 import awesomeBook from '../../media/project/awesome-books/image';
+import blog from '../../media/project/blog-aap/image';
 
 const initialState = {
   projects: [
     awesomeBook,
+    blog,
   ],
   modal: '',
 };

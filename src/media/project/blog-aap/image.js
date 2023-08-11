@@ -1,12 +1,10 @@
 import allDevice from './all-devices-black.png';
-import desktop from './desktop.png';
+import tablet from './tablet.png';
 import laptop from './laptop.png';
 import mobile from './mobile.png';
 
 const blog = {
   title: 'Blog App',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localstorage`,
   description: `
         The blog constitutes a Ruby on Rails rooted endeavor. The Blog app exemplifies the quintessential blog website – a fully 
         operational digital space that elegantly showcases an array of posts. Beyond mere presentation, it empowers readers to 
@@ -20,8 +18,8 @@ const blog = {
     'Sass',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    '',
+    'https://blog-9000.onrender.com/',
+    'https://github.com/PowerLevel9000/Blog',
   ],
-  image: [allDevice, desktop, laptop, mobile],
+  image: [allDevice, laptop, tablet, mobile],
 }; export default blog;
