@@ -6,39 +6,39 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [nameError, setNameError] = useState('');
-  const [emailError, setEmailError] = useState('');
-  const [messageError, setMessageError] = useState('');
+  // const [nameError, setNameError] = useState('');
+  // const [emailError, setEmailError] = useState('');
+  // const [messageError, setMessageError] = useState('');
 
-  const validateForm = () => {
-    let isValid = true;
+  // const validateForm = () => {
+  //   let isValid = true;
 
-    if (name.trim() === '') {
-      setNameError('Please enter your name');
-      isValid = false;
-    } else {
-      setNameError('');
-    }
+  //   if (name.trim() === '') {
+  //     setNameError('Please enter your name');
+  //     isValid = false;
+  //   } else {
+  //     setNameError('');
+  //   }
 
-    if (email.trim() === '') {
-      setEmailError('Please enter your email');
-      isValid = false;
-    } else if (!/\S+@\S+\.\S+/.test(email)) {
-      setEmailError('Please enter a valid email');
-      isValid = false;
-    } else {
-      setEmailError('');
-    }
+  //   if (email.trim() === '') {
+  //     setEmailError('Please enter your email');
+  //     isValid = false;
+  //   } else if (!/\S+@\S+\.\S+/.test(email)) {
+  //     setEmailError('Please enter a valid email');
+  //     isValid = false;
+  //   } else {
+  //     setEmailError('');
+  //   }
 
-    if (message.trim() === '') {
-      setMessageError('Please enter a message');
-      isValid = false;
-    } else {
-      setMessageError('');
-    }
+  //   if (message.trim() === '') {
+  //     setMessageError('Please enter a message');
+  //     isValid = false;
+  //   } else {
+  //     setMessageError('');
+  //   }
 
-    return isValid;
-  };
+  //   return isValid;
+  // };
 
   useEffect(() => {
     const savedName = localStorage.getItem('contactName');
@@ -68,30 +68,31 @@ const Contact = () => {
     localStorage.setItem('contactMessage', message);
   }, [message]);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (validateForm()) {
-      // Perform your form submission here
-    }
-  };
+  //   if (validateForm()) {
+
+  //   }
+  // };
 
   return (
     <ContactWrapper>
       <Title title="Contact Me" />
-      <form onSubmit={handleSubmit} action="https://formspree.io/f/mzbwnrgy" method="POST" className="mx-auto">
+      <form action="https://formspree.io/f/mzbwnrgy" method="POST" className="mx-auto">
         <div className="mb-3">
           <label htmlFor="name" className="form-label w-100">
             Your Name
             <input
               type="text"
               value={name}
+              name="Name"
               onChange={(e) => setName(e.target.value)}
               className="form-control"
               id="name"
               placeholder="Kakarot"
             />
-            <div className="error">{nameError}</div>
+            {/* <div className="error">{nameError}</div> */}
           </label>
         </div>
         <div className="mb-3">
@@ -102,10 +103,11 @@ const Contact = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
+              name="Email"
               id="email"
               placeholder="name@example.com"
             />
-            <div className="error">{emailError}</div>
+            {/* <div className="error">{emailError}</div> */}
           </label>
         </div>
         <div className="mb-3">
@@ -117,9 +119,10 @@ const Contact = () => {
               className="form-control"
               id="message"
               rows="3"
+              name="Message"
               placeholder="I love coding on the beach..."
             />
-            <div className="error">{messageError}</div>
+            {/* <div className="error">{messageError}</div> */}
           </label>
         </div>
         <input type="hidden" name="_gotcha" />
