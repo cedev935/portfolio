@@ -128,7 +128,6 @@ const HeroWrapper = styled.section`
         font-size: 1.4rem;
       }
     }
-
     .line {
       height: 70vh;
     }
