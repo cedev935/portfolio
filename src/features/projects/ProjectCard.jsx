@@ -8,14 +8,20 @@ import Title from '../../Title';
 const ProjectCard = () => {
   const { projects } = useSelector((store) => store);
   return (
-    <ProjectCardWrapper className="text-light background-wrapper">
-      <Title title="Projects Highlight" />
-      {projects.map((project) => <Card key={project.id} {...project} />)}
-    </ProjectCardWrapper>
+    <>
+      <ProjectCardWrapper className="text-light background-wrapper">
+        <Title title="Projects Highlight" />
+        {projects.map((project, index) => (
+          <Card key={project.id} {...project} index={index % 2 === 0} />
+        ))}
+      </ProjectCardWrapper>
+    </>
+
   );
 };
 
 const ProjectCardWrapper = styled.section`
+  gap: 3rem;
   .card {
     width: 80%;
     margin: auto;

@@ -63,6 +63,10 @@ main {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.modal-content img {
+  filter: drop-shadow(3px 3px 5px #804dee) sepia(0) drop-shadow(-3px -3px 5px #804dee);
+}
+
 .carousel-indicators {
   bottom: -40px !important;
 }

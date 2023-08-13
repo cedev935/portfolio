@@ -3,7 +3,7 @@ import desktop from './desktop.png';
 import laptop from './laptop.png';
 import mobile from './mobile.png';
 
-const stockMarket = {
+const bookingApp = {
   title: 'Awesome Books',
   lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
       localstorage`,
@@ -91,4 +91,4 @@ const stockMarket = {
   ],
 };
 
-export default stockMarket;
+export default bookingApp;
