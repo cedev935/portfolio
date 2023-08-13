@@ -1,5 +1,6 @@
 import allDevice from './all-devices-black.png';
 import tablet from './tablet.png';
+import desktop from './desktop.png';
 import laptop from './laptop.png';
 import mobile from './mobile.png';
 
@@ -13,7 +14,7 @@ const blog = {
   techList: [
     'Ruby',
     'Ruby on Rails',
-    'PostgreSql',
+    'PostgreSQL',
     'HTML5',
     'Sass',
   ],
@@ -34,7 +35,7 @@ const blog = {
       },
     },
     {
-      image: laptop,
+      image: desktop,
       styleMobile: {
         width: '80%',
         height: '40vh',

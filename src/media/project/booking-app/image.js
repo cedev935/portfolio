@@ -1,26 +1,26 @@
 import allDevice from './all-devices-black.png';
 import desktop from './desktop.png';
 import laptop from './laptop.png';
+import tablet from './tablet.png';
 import mobile from './mobile.png';
 
 const bookingApp = {
-  title: 'Awesome Books',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
+  title: 'Car Rental',
   description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
+        Car Rental is integration of two app i.e. Frontend and Backend built on React and Ruby On Rails while Collaboration
+        with other developers.In this app User can create account log in with authorization see, reserve or cancel car according to 
+        the city alloted, also there are features only for admin like add cars and delete cars  
       `,
   techList: [
     'CSS',
-    'JavaScript',
-    'localStorage',
-    'HTML',
+    'React',
+    'Ruby On Rails',
+    'PostgreSQL',
+    'HTML5',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    'https://github.com/PowerLevel9000/Awesome-Books/',
+    'https://booking-app-frontend-0qon.onrender.com/',
+    'https://github.com/ernestmusong/Booking-app-frontend',
   ],
   image: [
     {
@@ -32,20 +32,6 @@ const bookingApp = {
       style: {
         width: '80%',
         height: '70vh',
-      },
-    },
-    {
-      image: laptop,
-      styleMobile: {
-        width: '80%',
-        height: '40vh',
-        maxWidth: '400px',
-      },
-      style: {
-        width: '80%',
-        height: '70vh',
-        maxWidth: '700px',
-        transform: 'rotateY(30deg)',
       },
     },
     {
@@ -63,7 +49,21 @@ const bookingApp = {
       },
     },
     {
-      image: mobile,
+      image: laptop,
+      styleMobile: {
+        width: '80%',
+        height: '40vh',
+        maxWidth: '400px',
+      },
+      style: {
+        width: '80%',
+        height: '70vh',
+        maxWidth: '700px',
+        transform: 'rotateY(30deg)',
+      },
+    },
+    {
+      image: tablet,
       styleMobile: {
         width: '50%',
         height: '40vh',

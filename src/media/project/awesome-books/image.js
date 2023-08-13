@@ -1,5 +1,6 @@
 import allDevice from './all-devices-black.png';
 import desktop from './desktop.png';
+import tablet from './tablet.png';
 import laptop from './laptop.png';
 import mobile from './mobile.png';
 
@@ -35,20 +36,6 @@ const awesomeBook = {
       },
     },
     {
-      image: laptop,
-      styleMobile: {
-        width: '80%',
-        height: '40vh',
-        maxWidth: '400px',
-      },
-      style: {
-        width: '80%',
-        height: '70vh',
-        maxWidth: '700px',
-        transform: 'rotateY(30deg)',
-      },
-    },
-    {
       image: desktop,
       styleMobile: {
         width: '80%',
@@ -63,7 +50,21 @@ const awesomeBook = {
       },
     },
     {
-      image: mobile,
+      image: laptop,
+      styleMobile: {
+        width: '80%',
+        height: '40vh',
+        maxWidth: '400px',
+      },
+      style: {
+        width: '80%',
+        height: '70vh',
+        maxWidth: '700px',
+        transform: 'rotateY(30deg)',
+      },
+    },
+    {
+      image: tablet,
       styleMobile: {
         width: '50%',
         height: '40vh',

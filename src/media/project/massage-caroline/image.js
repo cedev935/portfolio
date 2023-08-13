@@ -1,26 +1,25 @@
 import allDevice from './all-devices-black.png';
 import desktop from './desktop.png';
 import laptop from './laptop.png';
+import tablet from './tablet.png';
 import mobile from './mobile.png';
 
 const massageCarolin = {
-  title: 'Awesome Books',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
+  title: 'Massage Caroline',
   description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
+        This project built while collaborating with another developer for a client in french. It is a landing page 
+        of a massage parlor where we can see all the details about the massage parlor even we can book appointment
+        for the specific massage according to price and time. 
       `,
   techList: [
-    'CSS',
-    'JavaScript',
-    'localStorage',
-    'HTML',
+    'HTML5',
+    'Styled Components',
+    'Sass',
+    'React',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    'https://github.com/PowerLevel9000/Awesome-Books/',
+    'https://carolineaime-adarsh-and-andrea.netlify.app/',
+    'https://github.com/rivasbolinga/massage-caroline',
   ],
   image: [
     {
@@ -32,20 +31,6 @@ const massageCarolin = {
       style: {
         width: '80%',
         height: '70vh',
-      },
-    },
-    {
-      image: laptop,
-      styleMobile: {
-        width: '80%',
-        height: '40vh',
-        maxWidth: '400px',
-      },
-      style: {
-        width: '80%',
-        height: '70vh',
-        maxWidth: '700px',
-        transform: 'rotateY(30deg)',
       },
     },
     {
@@ -63,7 +48,21 @@ const massageCarolin = {
       },
     },
     {
-      image: mobile,
+      image: laptop,
+      styleMobile: {
+        width: '80%',
+        height: '40vh',
+        maxWidth: '400px',
+      },
+      style: {
+        width: '80%',
+        height: '70vh',
+        maxWidth: '700px',
+        transform: 'rotateY(30deg)',
+      },
+    },
+    {
+      image: tablet,
       styleMobile: {
         width: '50%',
         height: '40vh',

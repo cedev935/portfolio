@@ -1,22 +1,23 @@
 import allDevice from './all-devices-black.png';
 import desktop from './desktop.png';
 import laptop from './laptop.png';
+import tablet from './tablet.png';
 import mobile from './mobile.png';
 
 const stockMarket = {
-  title: 'Awesome Books',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
+  title: 'Stock Analysis',
   description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
+        Stock Market Analysis This is a React-Based Project, in this website you can 
+        analyze your stocks and compare them to optimize your profit, it works with the 
+        financial API, and apart from this you will find a responsive design and clean UI, 
+        and in the future maybe we have some more features for checking bitcoin and searching company 
+        stock by name and a detailed navigation bar
       `,
   techList: [
-    'CSS',
-    'JavaScript',
-    'localStorage',
-    'HTML',
+    'React',
+    'Redux',
+    'Styled Component',
+    'HTML5',
   ],
   link: [
     'https://powerlevel9000.github.io/Awesome-Books/dist/',
@@ -35,20 +36,6 @@ const stockMarket = {
       },
     },
     {
-      image: laptop,
-      styleMobile: {
-        width: '80%',
-        height: '40vh',
-        maxWidth: '400px',
-      },
-      style: {
-        width: '80%',
-        height: '70vh',
-        maxWidth: '700px',
-        transform: 'rotateY(30deg)',
-      },
-    },
-    {
       image: desktop,
       styleMobile: {
         width: '80%',
@@ -63,7 +50,21 @@ const stockMarket = {
       },
     },
     {
-      image: mobile,
+      image: laptop,
+      styleMobile: {
+        width: '80%',
+        height: '40vh',
+        maxWidth: '400px',
+      },
+      style: {
+        width: '80%',
+        height: '70vh',
+        maxWidth: '700px',
+        transform: 'rotateY(30deg)',
+      },
+    },
+    {
+      image: tablet,
       styleMobile: {
         width: '50%',
         height: '40vh',

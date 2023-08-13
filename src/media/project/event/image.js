@@ -1,21 +1,20 @@
 import allDevice from './all-devices-black.png';
 import desktop from './desktop.png';
 import laptop from './laptop.png';
+import tablet from './tablet.png';
 import mobile from './mobile.png';
 
 const events = {
-  title: 'Awesome Books',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
+  title: 'Event Template',
   description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
+        This project build with pure HTML CSS and JavaScript. IT is mostly focus on frontend designing also 
+        it is build dynamically so if you want to organize any event you just need to edit data and you are 
+        good to go. i learn many things while doing this project like core flexbox grid and complex navigation bars
       `,
   techList: [
     'CSS',
     'JavaScript',
-    'localStorage',
+    'GitHub',
     'HTML',
   ],
   link: [
@@ -35,20 +34,6 @@ const events = {
       },
     },
     {
-      image: laptop,
-      styleMobile: {
-        width: '80%',
-        height: '40vh',
-        maxWidth: '400px',
-      },
-      style: {
-        width: '80%',
-        height: '70vh',
-        maxWidth: '700px',
-        transform: 'rotateY(30deg)',
-      },
-    },
-    {
       image: desktop,
       styleMobile: {
         width: '80%',
@@ -63,7 +48,21 @@ const events = {
       },
     },
     {
-      image: mobile,
+      image: laptop,
+      styleMobile: {
+        width: '80%',
+        height: '40vh',
+        maxWidth: '400px',
+      },
+      style: {
+        width: '80%',
+        height: '70vh',
+        maxWidth: '700px',
+        transform: 'rotateY(30deg)',
+      },
+    },
+    {
+      image: tablet,
       styleMobile: {
         width: '50%',
         height: '40vh',

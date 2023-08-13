@@ -4,23 +4,22 @@ import laptop from './laptop.png';
 import mobile from './mobile.png';
 
 const shopholic = {
-  title: 'Awesome Books',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
+  title: 'Shopholic',
   description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
+        Shopholic is the e-commerce application built while learning react with the help of FreeCode Camp video.
+        In this app we can see details, add products in cart and real time calculation of price
+        to pay. A payment gateway for purchase also increment product or decrement it.
       `,
   techList: [
     'CSS',
-    'JavaScript',
-    'localStorage',
+    'React',
+    'Context Api',
     'HTML',
+    'Styled Components',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    'https://github.com/PowerLevel9000/Awesome-Books/',
+    'https://react-e-commerce-store-react.netlify.app/',
+    'https://github.com/PowerLevel9000/e-commerce',
   ],
   image: [
     {
@@ -35,7 +34,7 @@ const shopholic = {
       },
     },
     {
-      image: laptop,
+      image: desktop,
       styleMobile: {
         width: '80%',
         height: '40vh',
@@ -49,7 +48,7 @@ const shopholic = {
       },
     },
     {
-      image: desktop,
+      image: laptop,
       styleMobile: {
         width: '80%',
         height: '40vh',
