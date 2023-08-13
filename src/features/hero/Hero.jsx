@@ -14,7 +14,7 @@ const Hero = () => (
         <div className="line" />
       </div>
       <div
-        className="text"
+        className="text me-4"
         data-aos="slide-left"
         data-aos-duration="2000"
         data-aos-mirror="true"
@@ -47,6 +47,7 @@ const HeroWrapper = styled.section`
     width: 80%;
     padding-top: 10rem;
     margin-left: 20%;
+    overflow: hidden;
     span,
     b {
       color: #9153ff;

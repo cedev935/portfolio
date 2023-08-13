@@ -29,7 +29,7 @@ const SkillSlider = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 651,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -60,7 +60,7 @@ const SkillSlider = () => {
                 </div>
                 <div className="card logo-wrapper">
                   {techLogos.map((logo) => (
-                    <div key={logo.id} className="card logo">
+                    <div key={logo.id} className="card logo" data-aos="spin-right">
                       <img src={logo.image} alt={logo.title} className="card-img-top" />
                       <small className="text-center">{logo.title}</small>
                     </div>

@@ -56,7 +56,7 @@ main {
 .about-me {
   background-image: url('./media/color-ball.png');
   background-size: cover;
-  animation: moveBackground 20s infinite .5s;
+  animation: moveBackground 20s infinite 0.5s;
 }
 
 .modal-content {
