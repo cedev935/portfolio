@@ -72,7 +72,7 @@ const Contact = () => {
   //   e.preventDefault();
 
   //   if (validateForm()) {
-
+  //     e.submit;
   //   }
   // };
 

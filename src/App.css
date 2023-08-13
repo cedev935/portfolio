@@ -58,3 +58,11 @@ main {
   background-size: cover;
   animation: moveBackground 20s infinite .5s;
 }
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.carousel-indicators {
+  bottom: -40px !important;
+}
