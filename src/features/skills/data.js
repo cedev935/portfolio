@@ -14,6 +14,8 @@ import ruby from '../../media/tech-logo/ruby.png';
 import redux from '../../media/tech-logo/redux.png';
 import sass from '../../media/tech-logo/sass.png';
 import vscode from '../../media/tech-logo/vscode.png';
+import leader from '../../media/tech-logo/leadership.png';
+import collaborator from '../../media/tech-logo/colaborator.png';
 
 export const data = [
   {
@@ -167,7 +169,17 @@ export const techLogos = [
     title: 'Mentor',
   },
   {
-    id: 16,
+    id: 17,
+    image: leader,
+    title: 'Leadership',
+  },
+  {
+    id: 18,
+    image: collaborator,
+    title: 'Collaborator',
+  },
+  {
+    id: 19,
     image: vscode,
     title: 'Vs-Code',
   },

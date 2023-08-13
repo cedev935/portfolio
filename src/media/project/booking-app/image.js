@@ -4,24 +4,23 @@ import laptop from './laptop.png';
 import tablet from './tablet.png';
 import mobile from './mobile.png';
 
-const stockMarket = {
-  title: 'Stock Analysis',
+const bookingApp = {
+  title: 'Car Rental',
   description: `
-        Stock Market Analysis This is a React-Based Project, in this website you can 
-        analyze your stocks and compare them to optimize your profit, it works with the 
-        financial API, and apart from this you will find a responsive design and clean UI, 
-        and in the future maybe we have some more features for checking bitcoin and searching company 
-        stock by name and a detailed navigation bar
+        Car Rental is integration of two app i.e. Frontend and Backend built on React and Ruby On Rails while Collaboration
+        with other developers.In this app User can create account log in with authorization see, reserve or cancel car according to 
+        the city alloted, also there are features only for admin like add cars and delete cars  
       `,
   techList: [
+    'CSS',
     'React',
-    'Redux',
-    'Styled Component',
+    'Ruby On Rails',
+    'PostgreSQL',
     'HTML5',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    'https://github.com/PowerLevel9000/Awesome-Books/',
+    'https://booking-app-frontend-0qon.onrender.com/',
+    'https://github.com/ernestmusong/Booking-app-frontend',
   ],
   image: [
     {
@@ -92,4 +91,4 @@ const stockMarket = {
   ],
 };
 
-export default stockMarket;
+export default bookingApp;

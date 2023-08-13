@@ -4,18 +4,27 @@ import { styled } from 'styled-components';
 import Card from './Card';
 import { greenPinkGradient } from '../animations/StyleVars';
 import Title from '../../Title';
+import Presentation from './Presentation';
 
 const ProjectCard = () => {
   const { projects } = useSelector((store) => store);
   return (
-    <ProjectCardWrapper className="text-light background-wrapper">
-      <Title title="Projects Highlight" />
-      {projects.map((project) => <Card key={project.id} {...project} />)}
-    </ProjectCardWrapper>
+    <>
+      <ProjectCardWrapper className="text-light background-wrapper">
+        <Title title="Projects Highlight" />
+        {projects.map((project, index) => (
+          <Card key={project.id} {...project} index={index % 2 === 0} />
+        ))}
+        <Title title="Top Presentation" />
+        <Presentation />
+      </ProjectCardWrapper>
+    </>
+
   );
 };
 
 const ProjectCardWrapper = styled.section`
+  gap: 3rem;
   .card {
     width: 80%;
     margin: auto;
@@ -25,6 +34,17 @@ const ProjectCardWrapper = styled.section`
     }
     ${greenPinkGradient}
     min-height: 60vh;
+  }
+  
+  .card-wrapper {
+    ${greenPinkGradient};
+
+    @media only screen and (max-width: 769px) {
+      iframe {
+        width: 100% !important;
+      }
+      flex-direction: column !important;
+    }
   }
 
   display: flex;
