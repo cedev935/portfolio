@@ -25,7 +25,7 @@ const Card = ({
     <CardWrapper className="card">
       {index && width > 769 ? (
         <>
-          <div className="project-details rounded" data-aos="fade-right">
+          <div className="project-details rounded" data-aos="zoom-in">
             <h2>{title}</h2>
             <h3 className="m-0 p-0 fs-3">Tech Stack</h3>
             <div className="d-flex flex-wrap gap-2 my-2">
@@ -39,7 +39,7 @@ const Card = ({
               <a href={link[1]} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary" type="button">See Source</button></a>
             </div>
           </div>
-          <div className="image-wrapper h-100" data-aos="fade-left">
+          <div className="image-wrapper h-100" data-aos="zoom-in">
             <img src={image[1].image} alt="" />
           </div>
         </>
@@ -119,7 +119,7 @@ width: 80%;
 display: flex;
 flex-direction: row;
 .image-wrapper {
-  width: 35%;
+  width: 45%;
   height: 80vh;
 }
 

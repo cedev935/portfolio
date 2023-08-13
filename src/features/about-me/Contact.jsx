@@ -126,9 +126,11 @@ const Contact = () => {
           </label>
         </div>
         <input type="hidden" name="_gotcha" />
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
+        <div className="text-center">
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
+        </div>
       </form>
     </ContactWrapper>
   );
@@ -137,12 +139,16 @@ const Contact = () => {
 const ContactWrapper = styled.section`
     background: rgba(0, 0, 0, 0.5);
     display: flex;
-    padding-top: 6rem;
-    border-radius: 15rem 0 0 0;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    border-radius: 10rem 0 0 0;
     flex-direction: column;
-
     form {
         width: 80%;
+    }
+
+    button {
+      width: 200px;
     }
 `;
 

@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import awesomeBook from '../../media/project/awesome-books/image';
 import blog from '../../media/project/blog-aap/image';
-import bookingApp from '../../media/project/booking-app/image';
 import stockMarket from '../../media/project/stock-market/image';
 import massageCarolin from '../../media/project/massage-caroline/image';
 import shopholic from '../../media/project/shopholic/image';
@@ -10,7 +9,6 @@ import events from '../../media/project/event/image';
 const initialState = {
   projects: [
     blog,
-    bookingApp,
     stockMarket,
     massageCarolin,
     shopholic,

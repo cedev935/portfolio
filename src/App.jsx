@@ -12,6 +12,7 @@ import Project from './features/projects/ProjectCard';
 import { glowingAnimation } from './features/animations/GlowingText';
 import { greenPinkGradient } from './features/animations/StyleVars';
 import AboutMe from './features/about-me/AboutMe';
+import Footer from './features/footer/Footer';
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const App = () => {
       <Project />
       <Liner id="about" />
       <AboutMe />
+      <Footer />
     </>
   );
 };
