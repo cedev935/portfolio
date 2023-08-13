@@ -77,7 +77,7 @@ const Contact = () => {
   // };
 
   return (
-    <ContactWrapper>
+    <ContactWrapper id="contact">
       <Title title="Contact Me" />
       <form action="https://formspree.io/f/mzbwnrgy" method="POST" className="mx-auto">
         <div className="mb-3">

@@ -11,8 +11,9 @@ const MobileMenu = ({ open, onClick }) => (
         <img src={logo} alt="" />
       </div>
       <ul style={{ height: open ? '50vh' : 0 }}>
-        <a href="#about" onClick={() => { onClick(false); }}><li>About</li></a>
         <a href="#projects" onClick={() => { onClick(false); }}><li>Projects</li></a>
+        <a href="#skills" onClick={() => { onClick(false); }}><li>About</li></a>
+        <a href="#about" onClick={() => { onClick(false); }}><li>About</li></a>
         <a href="#contact" onClick={() => { onClick(false); }}><li>Contact</li></a>
       </ul>
     </div>

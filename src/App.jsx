@@ -24,9 +24,9 @@ const App = () => {
     <>
       <Navigation />
       <Hero />
-      <Liner />
+      <Liner id="skills" />
       <SkillSlider />
-      <Liner />
+      <Liner id="projects" />
       <Project />
       <Liner id="about" />
       <AboutMe />
