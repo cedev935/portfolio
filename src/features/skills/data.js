@@ -3,7 +3,7 @@ import css from '../../media/tech-logo/css.png';
 import figma from '../../media/tech-logo/figma.png';
 import github from '../../media/tech-logo/github.png';
 import html from '../../media/tech-logo/html.png';
-import js from '../../media/tech-logo/js.png';
+import js from '../../media/tech-logo/javascript.png';
 import mentor from '../../media/tech-logo/mentor.png';
 import psql from '../../media/tech-logo/psql.png';
 import python from '../../media/tech-logo/python.png';

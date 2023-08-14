@@ -25,7 +25,7 @@
 #  App mock
 
   <img src="./personal-branding/app.png" alt="App Mock under construction..." width="100%"  height="auto" />
-  <img src="./personal-branding/tablet.png" alt="App Mock under construction..." width="50%" />
+  <img src="./personal-branding/tablet.png" alt="App Mock under construction..." width="40%" />
   <img src="./personal-branding/mobile.png" alt="App Mock under construction..." width="30%" />
 
 
