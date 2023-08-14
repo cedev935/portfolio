@@ -95,7 +95,7 @@ const Card = ({
             ))}
           </Carousel>
           <div className="text-center mt-5">
-            <a href={link[1]} target="_blank" rel="noopener noreferrer">
+            <a href={link[0]} target="_blank" rel="noopener noreferrer">
               <button className="btn btn-primary" type="button">See Live</button>
             </a>
           </div>
@@ -121,6 +121,8 @@ flex-direction: row;
 .image-wrapper {
   width: 45%;
   height: 80vh;
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {

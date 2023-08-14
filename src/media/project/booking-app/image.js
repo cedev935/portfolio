@@ -7,9 +7,10 @@ import mobile from './mobile.png';
 const bookingApp = {
   title: 'Car Rental',
   description: `
-        Car Rental is integration of two app i.e. Frontend and Backend built on React and Ruby On Rails while Collaboration
-        with other developers.In this app User can create account log in with authorization see, reserve or cancel car according to 
-        the city alloted, also there are features only for admin like add cars and delete cars  
+        Car Rental is an integration of two applications: Frontend and Backend. It's built using React and Ruby On Rails, 
+        in collaboration with other developers. This app allows users to create accounts, log in with authorization, view, 
+        reserve, or cancel cars based on the allotted city. Additionally, there are admin-exclusive features such as adding 
+        and deleting cars.  
       `,
   techList: [
     'CSS',

@@ -7,9 +7,10 @@ import mobile from './mobile.png';
 const events = {
   title: 'Event Template',
   description: `
-        This project build with pure HTML CSS and JavaScript. IT is mostly focus on frontend designing also 
-        it is build dynamically so if you want to organize any event you just need to edit data and you are 
-        good to go. i learn many things while doing this project like core flexbox grid and complex navigation bars
+        This project is constructed using pure HTML, CSS, and JavaScript. Its primary 
+        emphasis is on frontend design and dynamic construction. If you wish to organize an event, 
+        all that's required is data editing, enabling easy setup. During this project, I acquired 
+        knowledge in core concepts like flexbox, grid, and intricate navigation bars."
       `,
   techList: [
     'CSS',
@@ -18,8 +19,8 @@ const events = {
     'HTML',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    'https://github.com/PowerLevel9000/Awesome-Books/',
+    'https://powerlevel9000.github.io/Dynamic-Event-Template/',
+    'https://github.com/PowerLevel9000/Dynamic-Event-Template',
   ],
   image: [
     {

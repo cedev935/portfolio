@@ -7,9 +7,10 @@ import mobile from './mobile.png';
 const massageCarolin = {
   title: 'Massage Caroline',
   description: `
-        This project built while collaborating with another developer for a client in french. It is a landing page 
-        of a massage parlor where we can see all the details about the massage parlor even we can book appointment
-        for the specific massage according to price and time. 
+        This project was developed in collaboration with another developer for a French client. 
+        It involves creating a landing page for a massage parlor. The landing page provides comprehensive 
+        information about the massage parlor, including the option to book specific massages based on their 
+        respective prices and timings
       `,
   techList: [
     'HTML5',
