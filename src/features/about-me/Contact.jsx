@@ -87,6 +87,9 @@ const Contact = () => {
               type="text"
               value={name}
               name="Name"
+              required
+              minLength={3}
+              maxLength={120}
               onChange={(e) => setName(e.target.value)}
               className="form-control"
               id="name"
@@ -104,6 +107,9 @@ const Contact = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
               name="Email"
+              required
+              minLength={3}
+              maxLength={120}
               id="email"
               placeholder="name@example.com"
             />
@@ -120,6 +126,9 @@ const Contact = () => {
               id="message"
               rows="3"
               name="Message"
+              required
+              minLength={30}
+              maxLength={120}
               placeholder="I love coding on the beach..."
             />
             {/* <div className="error">{messageError}</div> */}
