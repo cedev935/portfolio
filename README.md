@@ -35,6 +35,7 @@
 
 ## 🧪 Linters <a name="linters"></a>
 [![Linters](https://github.com/PowerLevel9000/full-stack-portfolio/actions/workflows/linters.yml/badge.svg)](https://github.com/PowerLevel9000/full-stack-portfolio/actions/workflows/linters.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/045a996e-b3c3-455c-b6bb-0314deb7dbff/deploy-status)](https://app.netlify.com/sites/adarsh-powerlevel9000/deploys)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,8 +79,7 @@ In this project we utilize our skills and knowledge to create this project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live demo ⚒️🏋️](https://booking-app-frontend-0qon.onrender.com/)
-
+[![Live Link](https://api.netlify.com/api/v1/badges/045a996e-b3c3-455c-b6bb-0314deb7dbff/deploy-status)](https://adarsh-powerlevel9000.netlify.app/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
