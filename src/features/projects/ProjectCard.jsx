@@ -31,6 +31,7 @@ const ProjectCardWrapper = styled.section`
     img {
       width: 100%;
       height: 58vh;
+      max-width: 460px;
     }
     ${greenPinkGradient}
     min-height: 60vh;

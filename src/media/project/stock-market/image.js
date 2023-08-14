@@ -7,11 +7,10 @@ import mobile from './mobile.png';
 const stockMarket = {
   title: 'Stock Analysis',
   description: `
-        Stock Market Analysis This is a React-Based Project, in this website you can 
-        analyze your stocks and compare them to optimize your profit, it works with the 
-        financial API, and apart from this you will find a responsive design and clean UI, 
-        and in the future maybe we have some more features for checking bitcoin and searching company 
-        stock by name and a detailed navigation bar
+        Stock Market Analysis is a project built with React. On this website, you have the capability 
+        to analyze and compare your stocks to enhance your profitability. The project utilizes a financial 
+        API and boasts a responsive design, along with a clean UI. Potential future enhancements might include 
+        features like Bitcoin tracking, company stock searches by name, and an expanded navigation bar
       `,
   techList: [
     'React',
@@ -20,8 +19,8 @@ const stockMarket = {
     'HTML5',
   ],
   link: [
-    'https://powerlevel9000.github.io/Awesome-Books/dist/',
-    'https://github.com/PowerLevel9000/Awesome-Books/',
+    'https://stock-analysis-io.netlify.app/',
+    'https://github.com/PowerLevel9000/stock-market',
   ],
   image: [
     {

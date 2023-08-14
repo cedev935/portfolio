@@ -6,9 +6,10 @@ import mobile from './mobile.png';
 const shopholic = {
   title: 'Shopholic',
   description: `
-        Shopholic is the e-commerce application built while learning react with the help of FreeCode Camp video.
-        In this app we can see details, add products in cart and real time calculation of price
-        to pay. A payment gateway for purchase also increment product or decrement it.
+        Shopholic is an e-commerce application developed during the process of learning React, 
+        guided by FreeCode Camp videos. Within this app, users can explore product details, add items to their cart, 
+        and experience real-time price calculations. The application also includes a payment gateway for purchases, 
+        as well as the ability to increase or decrease product quantities.
       `,
   techList: [
     'CSS',

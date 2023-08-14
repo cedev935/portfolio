@@ -1,46 +1,194 @@
-# Getting Started with Create React App and Redux
+# 📗 Table of Contents
+- [App Mock](#app-mock)
+- [📖 About the Project](#about-project)
+  - [🧪 Linters](#linters)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🚀 Presentation And Live Demo](#video-presentation-for-our-project)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<!-- PROJECT DESCRIPTION -->
 
-## Available Scripts
+#  App mock
 
-In the project directory, you can run:
+  <img src="./personal-branding/app.png" alt="App Mock under construction..." width="100%"  height="auto" />
+  <img src="./personal-branding/tablet.png" alt="App Mock under construction..." width="50%" />
+  <img src="./personal-branding/mobile.png" alt="App Mock under construction..." width="30%" />
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 Full-Stack Portfolio <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Full Stack Developer Portfolio*: Discover a compilation of my diverse full stack projects and technical expertise. From interactive front-end designs to robust back-end solutions, this portfolio highlights my journey in crafting dynamic web applications.
 
-### `npm test`
+## 🧪 Linters <a name="linters"></a>
+[![Linters](https://github.com/PowerLevel9000/full-stack-portfolio/actions/workflows/linters.yml/badge.svg)](https://github.com/PowerLevel9000/full-stack-portfolio/actions/workflows/linters.yml)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this project we utilize our skills and knowledge to create this project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Project language </summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>FrameWork</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+  <summary>Styling</summary>
+  <ul>
+    <li><a href="postgresql.org/">Css</a></li>
+    <li><a href="postgresql.org/">Styled Components</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a name="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- *Hero Page*
+- *Carousel Skills*
+- *Responsive*
+- *Pop Ups*
+- *Overlays*
+- *Animations*
 
-## Learn More
+## 🚀 Live Demo <a name="live-demo"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Live demo ⚒️🏋️](https://booking-app-frontend-0qon.onrender.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Node installed in your machine
+- Any integrated terminal like 
+  - CMD `preferred`
+  - Bash`preferred`
+  - PowerShell
+  - etc
+
+### Setup
+
+Clone this repository to your desired folder:
+
+for cloning follow this steps
+- go to green `code` button very top left corner of this Repository container
+- copy your `SSH` or `https` file and clone it in your desired folder 
+- or just download `ZIP` file
+
+### Install
+
+Install this project with:
+
+for now you don't need any installation to run project if you already followed [Prerequisites](#prerequisites)
+
+just few dependency packages 
+```
+npm install
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+npm start // to start development server
+npm run build // to build for productions
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 *Adarsh Pathak*
+
+- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
+- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002)
+- LinkedIn: [Adarsh pathak](https://linkedin.com/in/PowerLevel)
+- GitUp Page: [Portfolio Page](https://powerlevel9000.github.io/portfolio-project/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] *Routing And Detailed Various Section*
+- [ ] *Better footer and Navigation*
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give it star or buy a coffee for us
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank microverse for giving this opportunity to show up my skills
+and Yt Video for designing elements
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [GENERAL PUBLIC LICENSE](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

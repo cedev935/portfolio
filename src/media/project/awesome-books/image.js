@@ -6,12 +6,10 @@ import mobile from './mobile.png';
 
 const awesomeBook = {
   title: 'Awesome Books',
-  lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
-      localstorage`,
   description: `
-        This project is build for organizing your favorite books and their authors. It is build with implementation of 
-        localStorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
-        approved by microverse professional coders 
+        This project is designed to organize your favorite books and their authors. 
+        It's constructed using localStorage and dynamic pages, allowing for nested pages 
+        within a single page. Several projects have been reviewed and approved by professional coders at Microverse
       `,
   techList: [
     'CSS',
