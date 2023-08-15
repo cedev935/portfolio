@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { styled } from 'styled-components';
 import PropTypes from 'prop-types';
 import {
   Modal, Button, Carousel,
 } from 'react-bootstrap';
+import { Vortex } from 'react-loader-spinner';
 import { orangeTextGradient } from '../animations/GlowingText';
 import { blackGradient } from '../animations/StyleVars';
 
@@ -89,7 +90,20 @@ const Card = ({
             {image.map((img) => (
               <Carousel.Item key={img}>
                 <div className="wrapper text-center w-100">
-                  <img src={img.image} style={width < 768 ? img.styleMobile : img.style} className="image" alt="project0" />
+                  <Suspense fallback={(
+                    <Vortex
+                      visible
+                      height="400"
+                      width="400"
+                      ariaLabel="vortex-loading"
+                      wrapperStyle={{}}
+                      wrapperClass="vortex-wrapper"
+                      colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
+                    />
+)}
+                  >
+                    <img src={img.image} style={width < 768 ? img.styleMobile : img.style} className="image" alt="project0" />
+                  </Suspense>
                 </div>
               </Carousel.Item>
             ))}

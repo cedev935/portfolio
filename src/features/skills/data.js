@@ -34,7 +34,7 @@ export const data = [
     id: 2,
     image: sass,
     title: 'Sass',
-    details: 'Sass is a CSS preprocessor that extends the capabilities of CSS with variables, nesting, and other programming constructs. It simplifies the process of styling web pages and allows for easier code organization with mixins, inheritance and many more features.',
+    details: 'Sass is a CSS preprocessor that extends the capabilities of CSS with variables, nesting, and other programming constructs. It simplifies the process of styling web pages and allows for easier code organization with mixins, inheritance.',
     features: [
       'Variables',
       'Mixins',
