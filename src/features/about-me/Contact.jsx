@@ -93,7 +93,7 @@ const Contact = () => {
               onChange={(e) => setName(e.target.value)}
               className="form-control"
               id="name"
-              placeholder="Kakarot"
+              placeholder="Name"
             />
             {/* <div className="error">{nameError}</div> */}
           </label>

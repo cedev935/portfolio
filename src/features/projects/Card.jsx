@@ -37,7 +37,6 @@ const Card = ({
               <Button variant="success" onClick={handleShow}>
                 Preview
               </Button>
-              <a href={link[1]} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary" type="button">See Source</button></a>
             </div>
           </div>
           <div className="image-wrapper h-100" data-aos="zoom-in">
@@ -60,7 +59,6 @@ const Card = ({
               <Button variant="success" onClick={handleShow}>
                 Preview
               </Button>
-              <a href={link[1]} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary" type="button">See Source</button></a>
             </div>
           </div>
         </>
@@ -110,7 +108,7 @@ const Card = ({
           </Carousel>
           <div className="text-center mt-5">
             <a href={link[0]} target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-primary" type="button">See Live</button>
+              {/* <button className="btn btn-primary" type="button">See Live</button> */}
             </a>
           </div>
         </Modal.Body>

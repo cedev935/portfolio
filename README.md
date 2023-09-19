@@ -22,13 +22,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-#  App mock
-
-  <img src="./personal-branding/app.png" alt="App Mock under construction..." width="100%"  height="auto" />
-  <img src="./personal-branding/tablet.png" alt="App Mock under construction..." width="40%" />
-  <img src="./personal-branding/mobile.png" alt="App Mock under construction..." width="30%" />
-
-
 # 📖 Full-Stack Portfolio <a name="about-project"></a>
 
 *Full Stack Developer Portfolio*: Discover a compilation of my diverse full stack projects and technical expertise. From interactive front-end designs to robust back-end solutions, this portfolio highlights my journey in crafting dynamic web applications.
@@ -137,12 +130,9 @@ npm run build // to build for productions
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Adarsh Pathak*
+👤 *Tony Pathak*
 
-- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
-- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002)
-- LinkedIn: [Adarsh pathak](https://linkedin.com/in/PowerLevel)
-- GitUp Page: [Portfolio Page](https://powerlevel9000.github.io/portfolio-project/)
+- GitHub: [@PowerLevel9000](https://github.com/cedev935@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,4 +181,4 @@ and Yt Video for designing elements
 This project is [GENERAL PUBLIC LICENSE](./LICENSE) licensed.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p># FullStack-portfolio

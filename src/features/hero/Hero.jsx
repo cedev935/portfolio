@@ -39,7 +39,7 @@ const Hero = () => {
           <h1 className="text-light mt-4">
             Hi I&apos;m
             {' '}
-            <span>Adarsh</span>
+            <span>Tony</span>
           </h1>
           <p>
             I am Saiyan From Planet
